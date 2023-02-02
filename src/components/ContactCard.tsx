@@ -1,7 +1,7 @@
 import { Button, Card, CardText, CardTitle, CardBody, ButtonGroup } from "reactstrap";
 import { Contact } from "../interfaces/Contact"; 
 
-interface ContactCardProps{
+export interface ContactCardProps{
     contact: Contact,
 }
 

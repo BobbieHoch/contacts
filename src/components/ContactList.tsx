@@ -3,6 +3,9 @@ import { Contact } from "../interfaces/Contact";
 import ContactCard from "./ContactCard";
 import { ContactForm } from "./ContactForm";
 
+//the job of this component is to display a list of contact cards
+//imperative vs. declarative
+//Contact list owns the state= PARENT
 function ContactList(){
     const [contacts, setContacts] = useState<Contact[]>(
         [ { firstName: "Lou", lastName: "Gehrig", mobile: "555-121-1212" },
@@ -28,4 +31,5 @@ function addContact(contact: Contact) {
             )
         }
         
-        export default ContactList;
+export default ContactList;
+        
