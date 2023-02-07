@@ -10,7 +10,7 @@ function ContactCard(props:ContactCardProps){
     <Card id="ContactCard">
         <CardBody>
             <CardTitle tag="h1">Contact Card</CardTitle>
-            <CardText>
+            <CardText className = "cardText">
                 <p>First Name: {props.contact.firstName}</p>
                 <p>Last Name: {props.contact.lastName}</p>
                 <p>Phone Number: {props.contact.mobile}</p>
