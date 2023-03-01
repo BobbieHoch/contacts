@@ -28,6 +28,7 @@ export function ContactForm(props: IContactFormProps) {
           <p>{phoneNumber}</p>
          {/* // e.target.value saves input to the tag */}
           <form onSubmit={onSubmit}>
+              
                 {/* <label>Id Number</label> */}
                      {/* <input onChange={(e) => setIdNumber(e.target.value)} type="text" placeholder = "Type in your Unique Id"/> */}
                  <label>First Name</label>
